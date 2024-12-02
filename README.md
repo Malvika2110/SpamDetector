@@ -20,49 +20,49 @@ predictions.
 
 Methodology
 1. Data Collection:
-○ The dataset for this project was sourced from Kaggle. It contains labeled
+The dataset for this project was sourced from Kaggle. It contains labeled
 SMS/Email messages categorized as "spam" or "ham."
 
-2. Data Preprocessing:
-○ Remove unwanted characters, punctuation, and stopwords to clean the dataset.
-○ Converted text data into numerical format using Term Frequency-Inverse
+3. Data Preprocessing:
+- Remove unwanted characters, punctuation, and stopwords to clean the dataset.
+- Converted text data into numerical format using Term Frequency-Inverse
 Document Frequency (TF-IDF).
 
-3. Model Training:
-○ Trained the data using logistic regression machine learning model
-○ Evaluated models based on accuracy and precision
-○ Used SVM to predict the models F Scores and accuracy score
+4. Model Training:
+- Trained the data using logistic regression machine learning model
+- Evaluated models based on accuracy and precision
+- Used SVM to predict the models F Scores and accuracy score
 
 5. Web Framework Implementation:
-○ Built a Flask-based web application to provide an interactive interface for the
+- Built a Flask-based web application to provide an interactive interface for the
 user.
-○ Integrated the trained machine learning model for real-time predictions.
+- Integrated the trained machine learning model for real-time predictions.
 
 Implementation
 1. Development Tools and Frameworks:
-○ Programming Language: Python
-○ Framework: Flask
-○ Libraries: Pandas, Scikit-learn, NLTK, TF-IDFVectorizer
+- Programming Language: Python
+- Framework: Flask
+- Libraries: Pandas, Scikit-learn, NLTK, TF-IDFVectorizer
 
 2. Web Application Flow:
-○ Input: Users enter a message through the web interface.
-○ Processing: The message is preprocessed and fed into the trained model.
-○ Output: The model predicts whether the message is spam or ham, displaying the
+- Input: Users enter a message through the web interface.
+- Processing: The message is preprocessed and fed into the trained model.
+- Output: The model predicts whether the message is spam or ham, displaying the
 result instantly.
 
 3. Deployment:
-○ The application is hosted locally using Flask, allowing users to interact with the
+- The application is hosted locally using Flask, allowing users to interact with the
 model on their browsers.
 
 Results
-● Model Performance:
-○ Achieved an accuracy of approximately 96.7% on the testing dataset.
+1. Model Performance:
+- Achieved an accuracy of approximately 97.7% on the testing dataset.
 
-● Application Feedback:
-○ Successfully classified a variety of user inputs around 5500 during testing,
+2. Application Feedback:
+- Successfully classified a variety of user inputs around 5500 during testing,
 demonstrating real-world viability.
 
-○ Delivered results with minimal latency, ensuring a smooth user experience.
+3. Delivered results with minimal latency, ensuring a smooth user experience.
 
 Conclusion
 The SMS and Email Spam Detection system is an efficient and accurate solution for identifying
